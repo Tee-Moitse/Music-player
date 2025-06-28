@@ -96,5 +96,11 @@ progress::-webkit-slider-thumb {
     color: #f53192;
     box-shadow: 0 10px 20px rgba(255, 26, 26, 0.22);
     cursor: pointer;
+}
 
+
+.controls div:nth-child(2){
+    transform: scale(1.5);
+    background: #f53192;
+    color: #fff;
 }
