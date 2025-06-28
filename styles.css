@@ -57,3 +57,13 @@ nav .circle {
     font-size: 14px;
     color: #333;
 }
+
+#progress {
+    -webkit-appearance: none;
+    width: 100px;
+    height: 6px;
+    background: #6b1f84;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 40px 0;
+}
