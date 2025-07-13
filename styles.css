@@ -43,7 +43,7 @@ nav .circle {
     width: 220px;
     border-radius: 50%;
     border: 8px solid #fff;
-    box-shadow: 0 10px 60px rgba(250, 248, 248, 0.22);
+    box-shadow: 0 10px 60px rgba(255, 246, 246, 0.22);
 }
 
 .music-player h1{
