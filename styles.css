@@ -16,7 +16,7 @@
 }
 
 .music-player {
-    background: #b287df;
+    background: #0e0e13;
     width: 400px;
     padding: 25px 35px;
     text-align: center;
@@ -33,9 +33,9 @@ nav .circle {
     width: 40px;
     height: 40px;
     line-height: 40px;
-    background: #fff;
-    color: #f53192;
-    box-shadow: 0 5px 10px rgba(255, 26, 26, 0.22);
+    background: #ffffff;
+    color: #000000;
+    box-shadow: 0 5px 10px rgba(191, 189, 189, 0.22);
     
 }
 
@@ -43,27 +43,26 @@ nav .circle {
     width: 220px;
     border-radius: 50%;
     border: 8px solid #fff;
-    box-shadow: 0 10px 60px rgba(255, 26, 26, 0.22);
+    box-shadow: 0 10px 60px rgba(250, 248, 248, 0.22);
 }
 
 .music-player h1{
     font-size: 20px;
     font-weight: 400;
-    color: #333;
+    color: #ffffff;
     margin-top:20px;
 }
 
 .music-player p{
     font-size: 14px;
-    color: #333;
+    color: #f6f2f2;
 }
 
 #progress {
     -webkit-appearance: none;
-    /* appearance: none; */
     width: 250px;
-    height: 6px;
-    background: #d25dd2;
+    height: 4px;
+    background: #2d2a2d;
     border-radius: 4px;
     cursor: pointer;
     margin: 40px 0;
@@ -71,12 +70,12 @@ nav .circle {
 
 progress::-webkit-slider-thumb {
     -webkit-appearance: none;
-    background: #6b1f84;
+    background: #332d34;
     width: 30px;
     height: 30px;
     border-radius: 50%;
     border: 8px solid #fff;
-    box-shadow: 0 5px 5px rgba(255, 26, 26, 0.22)
+    box-shadow: 0 5px 5px rgba(208, 201, 201, 0.22)
 }
 
 .controls {
@@ -94,14 +93,14 @@ progress::-webkit-slider-thumb {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    color: #f53192;
-    box-shadow: 0 10px 20px rgba(255, 26, 26, 0.22);
+    color: #000000;
+    box-shadow: 0 10px 20px rgba(151, 144, 144, 0.22);
     cursor: pointer;
 }
 
 
 .controls div:nth-child(2){
     transform: scale(1.5);
-    background: #f53192;
+    background: #000000;
     color: #fff;
 }
