@@ -23,7 +23,7 @@
             <h1>Slow Orbit</h1>
             <p>Jasper Halo</p>
 
-            <audio controls id="song">
+            <audio id="song">
                 <source src="media/Old Friends [Eh8t8fqWD84].mp3" type = "audio/mpeg">
 
             </audio>
@@ -70,6 +70,15 @@
                 progress.value = song.currentTime;
             }, 500);
         }
+
+        progress.onchange = function(){
+            song.play();
+            song.currentTime = progress.value;
+            ctrlIcon.classList.add("fa-pause");
+            ctrlIcon.classList.remove("fa-play");
+        }
+
+
 
     </script>
 
