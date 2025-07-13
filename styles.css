@@ -60,9 +60,10 @@ nav .circle {
 
 #progress {
     -webkit-appearance: none;
-    width: 100px;
+    /* appearance: none; */
+    width: 250px;
     height: 6px;
-    background: #6b1f84;
+    background: #d25dd2;
     border-radius: 4px;
     cursor: pointer;
     margin: 40px 0;
